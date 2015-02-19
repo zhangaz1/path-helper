@@ -1,0 +1,33 @@
+{
+    "author": {
+        "name": "zhangaz1",
+        "url": "https://github.com/zhangaz1"
+    },
+    "name": "path-helper",
+    "description": "Node.JS path module Helper",
+    "keywords": [
+        "helper",
+        "path"
+    ],
+    "version": "0.0.1",
+    "homepage": "https://github.com/zhangaz1/path-helper",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zhangaz1/path-helper"
+    },
+    "main": "./helper.js",
+    "directories": {
+        "lib": "."
+    },
+    "engines": {
+        "node": ">= 0.2.0",
+        "ender": ">= 0.5.0"
+    },
+    "dependencies": {
+        "path": "path"
+    },
+    "devDependencies": {},
+    "bugs": {
+        "url": "https://zhangaz1.github.com/path-helper/issues"
+    }
+}
