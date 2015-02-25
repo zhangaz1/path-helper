@@ -1,7 +1,8 @@
 var helper = require('./helper')();
 var assert = require('assert');
 
-var root = 'E:\\node_modules\\path-helper';
+var root = __dirname;
 
 assert.equal(helper.resolve('abc').toLowerCase(), (root + '\\' + 'abc').toLowerCase());
-assert.equal(helper.resolve('./abc').toLowerCase(), (root + '\\' + './abc').toLowerCase());
+assert.equal(helper.resolve('./abc').toLowerCase(), (root + '\\' + 'abc').toLowerCase());
+// assert.equal(helper.resolve('../abc').toLowerCase(), (root + '\\' + 'abc').toLowerCase());
