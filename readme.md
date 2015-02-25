@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zhangaz1/path-helper.svg?branch=master)](https://travis-ci.org/zhangaz1/path-helper)
+
 # path-helper()
 
 Node helper to resolve the fullpath.
