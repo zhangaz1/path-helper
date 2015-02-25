@@ -9,7 +9,7 @@
         "helper",
         "path"
     ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "https://github.com/zhangaz1/path-helper",
     "repository": {
         "type": "git",
@@ -20,8 +20,7 @@
         "lib": "."
     },
     "engines": {
-        "node": ">= 0.2.0",
-        "ender": ">= 0.5.0"
+        "node": "*"
     },
     "dependencies": {
         "path": "path"
